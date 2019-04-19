@@ -1,6 +1,8 @@
 # XpressPunte
 Desarrollo y optimización de una macro para Windows Office que resalte todos los términos importantes de un texto, facilitando un rápido y correcto subrayado de grandes volúmenes de comisiones de apuntes del grado en Medicina.
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
 INSTRUCCIONES DE USO:
   - Descarga el último archivo ".bas" (0.3 - XpressPunte.bas).
   - Abre tu documento Word
