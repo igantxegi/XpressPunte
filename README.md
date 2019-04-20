@@ -17,9 +17,10 @@ INSTRUCCIONES DE USO:
 EXPLICACIÓN DE CADA ELEMENTO:
   - LICENCE: detalla los permisos que otorgo, como desarrollador de XpressPunte, a quien desee hacer uso del mismo (es GNU GENERAL PUBLIC LICENSE, Version 3, 29 June 2007)
   - _config.yml: archivo que detalla el estilo de igantxegi.github.io/XpressPunte, sito web automático de este repositorio.
-  - README: este documento, con información general del proyecto XpressPunte.
-  - Listado terminos: relación de palabras incluidas/pendientes de incluir.
+  - README.md: este documento, con información general del proyecto XpressPunte.
+  - Listado terminos.md: relación de palabras incluidas/pendientes de incluir.
   - Logo: carpeta con el logo de XpressPunte. Incluye varias versiones:
     - XpressPunte (logo).png: versión orginal
     - XpressPunte (logoGRANDE).png: versión del original, pero escalada a las recomendaciones de Github.
     - XpressPunte (logoGRANDE).gif: versión del original, pero en formato gif (buscando un menor peso).
+  - Pendiente.md: lista de característicasa imolementar próximamente. 
