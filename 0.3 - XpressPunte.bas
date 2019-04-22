@@ -1,28 +1,21 @@
 Attribute VB_Name = "NewMacros"
-
-
-
-Sub XpressSubrayeitorINICIO()
-Attribute XpressSubrayeitorINICIO.VB_Description = "Primera parte de esta segunda versión de herramienta de subrayado express inteligente.\r\nIbon Gantxegi Fernández."
-Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.XpressSubrayeitorINICIO"
+Sub XpressPunte4_0UNO()
+Attribute XpressPunte4_0UNO.VB_Description = "plantilla"
+Attribute XpressPunte4_0UNO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.Macro1"
 '
-' XpressSubrayeitorINICIO Macro
-' Primera parte de esta segunda versión de herramienta de subrayado express inteligente.
-' "&chr(10)&"Ibon Gantxegi Fernández.
+' XpressPunte4_0 Macro
+' Cuarta versión de esta herramienta.
 '
     Selection.Find.Replacement.Font.Bold = True
     Selection.Find.Replacement.Font.Italic = True
+    
     With Selection.Find
         .Text = "examen"
         .Replacement.Text = "examen"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -31,11 +24,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
-        .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
+        .MatchWholeWord = Tr
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -44,11 +33,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
-        .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
+        .MatchWholeWord = Tru
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -57,11 +42,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -70,11 +51,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
-        .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
+        .MatchWholeWord = Tru
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -83,11 +60,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -96,11 +69,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -109,11 +78,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -122,11 +87,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -135,11 +96,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -148,11 +105,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -161,11 +114,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -174,11 +123,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -187,11 +132,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -200,11 +141,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -213,11 +150,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -226,11 +159,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -239,11 +168,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -252,11 +177,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -265,11 +186,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -278,11 +195,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -291,11 +204,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -304,11 +213,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -317,11 +222,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -330,11 +231,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -343,11 +240,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -356,11 +249,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -369,11 +258,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -382,11 +267,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -395,11 +276,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -408,11 +285,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -421,11 +294,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -434,11 +303,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -447,11 +312,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -460,11 +321,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -473,11 +330,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -486,11 +339,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -499,11 +348,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -512,11 +357,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -525,11 +366,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -538,11 +375,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -551,11 +384,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -564,11 +393,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -577,11 +402,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -590,11 +411,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -603,11 +420,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -616,11 +429,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -629,11 +438,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -642,11 +447,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -655,11 +456,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -668,11 +465,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -681,11 +474,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -694,11 +483,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -707,11 +492,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -720,11 +501,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -733,11 +510,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -746,11 +519,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -759,11 +528,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -772,11 +537,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -785,11 +546,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -798,11 +555,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -811,11 +564,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -824,11 +573,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -837,11 +582,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -850,11 +591,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -863,11 +600,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -876,11 +609,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -889,11 +618,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -902,11 +627,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -915,11 +636,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -928,11 +645,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -941,11 +654,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -954,11 +663,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -967,11 +672,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -980,11 +681,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -993,11 +690,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1006,11 +699,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1019,11 +708,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1032,11 +717,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1045,11 +726,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1058,11 +735,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1071,11 +744,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1084,11 +753,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1097,11 +762,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1110,11 +771,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1123,11 +780,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1136,11 +789,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1149,11 +798,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1162,11 +807,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1175,11 +816,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1188,11 +825,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1201,11 +834,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1214,11 +843,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1227,11 +852,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1240,11 +861,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1253,11 +870,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1266,11 +879,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1279,11 +888,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1292,11 +897,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1305,11 +906,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1318,11 +915,7 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1331,40 +924,16 @@ Attribute XpressSubrayeitorINICIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
-End Sub
-
-
-
-
-Sub XpressSubrayeitorMEDIO()
-Attribute XpressSubrayeitorMEDIO.VB_Description = "Segunda parte de esta segunda versión de herramienta de subrayado express inteligente.\r\nIbon Gantxegi Fernández."
-Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.XpressSubrayeitor3"
-'
-' XpressSubrayeitorMEDIO Macro
-' Segunda parte de esta segunda versión de herramienta de subrayado express inteligente.
-' "&chr(10)&"Ibon Gantxegi Fernández.
-'
-    Selection.Find.Replacement.Font.Bold = True
-    Selection.Find.Replacement.Font.Italic = True
-
     With Selection.Find
         .Text = "fijo"
         .Replacement.Text = "fijo"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1373,11 +942,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
@@ -1386,11 +951,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
         With Selection.Find
@@ -1399,11 +960,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1412,11 +969,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1425,11 +978,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1438,11 +987,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1451,11 +996,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1464,11 +1005,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1477,11 +1014,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1490,11 +1023,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1503,11 +1032,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1516,11 +1041,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1529,11 +1050,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1542,11 +1059,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1555,11 +1068,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1568,11 +1077,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1581,11 +1086,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1594,11 +1095,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1607,11 +1104,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1620,11 +1113,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1633,11 +1122,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1646,11 +1131,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1659,11 +1140,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1672,11 +1149,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1685,11 +1158,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1698,11 +1167,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1711,11 +1176,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1724,24 +1185,23 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
+End Sub
+
+Sub XpressPunte4_0DOS()
+
+    Selection.Find.Replacement.Font.Bold = True
+    Selection.Find.Replacement.Font.Italic = True
+    
     With Selection.Find
         .Text = "examen"
         .Replacement.Text = "examen"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1750,11 +1210,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1763,11 +1219,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1776,11 +1228,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1789,11 +1237,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1802,11 +1246,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1815,11 +1255,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1828,11 +1264,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1841,11 +1273,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1854,11 +1282,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1867,11 +1291,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1880,11 +1300,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1893,11 +1309,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1906,11 +1318,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1919,11 +1327,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1932,11 +1336,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1945,11 +1345,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1958,11 +1354,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1971,11 +1363,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1984,11 +1372,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -1997,11 +1381,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2010,11 +1390,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2023,11 +1399,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2036,11 +1408,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2049,11 +1417,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2062,11 +1426,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2075,11 +1435,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2088,11 +1444,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2101,11 +1453,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2114,11 +1462,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2127,11 +1471,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2140,11 +1480,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2153,11 +1489,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2166,11 +1498,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2179,11 +1507,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2192,11 +1516,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2205,11 +1525,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2218,11 +1534,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2231,11 +1543,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2244,11 +1552,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2257,11 +1561,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2270,11 +1570,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2283,11 +1579,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2296,11 +1588,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2309,11 +1597,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2322,11 +1606,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2335,11 +1615,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2348,11 +1624,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2361,11 +1633,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2374,11 +1642,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2387,11 +1651,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2400,11 +1660,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2413,11 +1669,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2426,11 +1678,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2439,11 +1687,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2452,11 +1696,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2465,11 +1705,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2478,11 +1714,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2491,11 +1723,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2504,11 +1732,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2517,11 +1741,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2530,11 +1750,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2543,11 +1759,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2556,11 +1768,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2569,11 +1777,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2582,11 +1786,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2595,11 +1795,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2608,11 +1804,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2621,11 +1813,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2634,11 +1822,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2647,11 +1831,7 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2660,40 +1840,16 @@ Attribute XpressSubrayeitorMEDIO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
-End Sub
-
-
-
-
-Sub XpressSubrayeitorFINAL()
-Attribute XpressSubrayeitorFINAL.VB_Description = "Tercera parte de esta segunda versión de herramienta de subrayado express inteligente.\r\nIbon Gantxegi Fernández."
-Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.XpressSubrayeitor4"
-'
-' XpressSubrayeitorFINAL Macro
-' Tercera parte de esta segunda versión de herramienta de subrayado express inteligente.
-' "&chr(10)&"Ibon Gantxegi Fernández.
-'
-    Selection.Find.Replacement.Font.Bold = True
-    Selection.Find.Replacement.Font.Italic = True
-
     With Selection.Find
         .Text = "específicas"
         .Replacement.Text = "específicas"
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2702,11 +1858,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2715,11 +1867,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2728,11 +1876,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2741,11 +1885,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2754,11 +1894,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2767,11 +1903,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2780,11 +1912,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2793,11 +1921,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2806,11 +1930,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2819,11 +1939,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2832,11 +1948,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2845,11 +1957,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2858,11 +1966,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2871,11 +1975,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2884,11 +1984,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2897,11 +1993,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2910,11 +2002,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2923,11 +2011,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2936,11 +2020,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2949,11 +2029,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2962,11 +2038,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2975,11 +2047,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -2988,11 +2056,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3001,11 +2065,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3014,11 +2074,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3027,11 +2083,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3040,11 +2092,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3053,11 +2101,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3066,11 +2110,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3079,11 +2119,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3092,11 +2128,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3105,11 +2137,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3118,11 +2146,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3131,11 +2155,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3144,11 +2164,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3157,11 +2173,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3170,11 +2182,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3183,11 +2191,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3196,11 +2200,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3209,11 +2209,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3222,11 +2218,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3235,11 +2227,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3248,11 +2236,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3261,11 +2245,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3274,11 +2254,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3287,11 +2263,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3300,11 +2272,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3313,11 +2281,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3326,11 +2290,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3339,11 +2299,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3352,11 +2308,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3365,11 +2317,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3378,11 +2326,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3391,11 +2335,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3404,11 +2344,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3417,11 +2353,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3430,11 +2362,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3443,11 +2371,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3456,11 +2380,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3469,11 +2389,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3482,11 +2398,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3495,11 +2407,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3508,11 +2416,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
     With Selection.Find
@@ -3521,11 +2425,7 @@ Attribute XpressSubrayeitorFINAL.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.
         .Forward = True
         .Wrap = wdFindContinue
         .Format = True
-        .MatchCase = False
         .MatchWholeWord = True
-        .MatchWildcards = False
-        .MatchSoundsLike = False
-        .MatchAllWordForms = False
     End With
     Selection.Find.Execute Replace:=wdReplaceAll
 End Sub
