@@ -56,6 +56,8 @@ Contrarias
 Resumen
 Conclusión
 Conclusiones
+Requiere
+Requieren
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
