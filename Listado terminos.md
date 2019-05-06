@@ -58,6 +58,37 @@ Conclusión
 Conclusiones
 Requiere
 Requieren
+mala
+malo
+malas
+malos
+peor
+peores
+salvo
+excepto
+excepción
+pico
+picos
+primera elección
+el único
+la única
+los únicos
+las únicas
+impredecible
+impredecibles
+incontrolable
+embarazada
+embarazadas
+imprescindible
+poco
+poca
+pocos
+pocas
+insuficientes
+insuficiente
+salvo
+excepto
+a excepción de
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
