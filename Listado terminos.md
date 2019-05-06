@@ -1,63 +1,63 @@
 PENDIENTES DE AÑADIR:
-Prototipo
-Prototípico
-Arquetipo
-Arquetípico
-Imposible
-Imposibilidad
-Necesario
-Necesaria
-Necesarios
-Necesarias
-Ninguno
-Ninguna
-Ni
-Solo
-Desconocido
-Desconocida
-Desconocidos
-Desconocidas
-Sobretodo
-Nada
-Importa
-Recordad
-Ausencia de
-Falta de
-Mortal
-Enorme
-Al contrario
-Muchas veces
-Recomendable
-Recomiendan
-Recomienda
-En muchas ocasiones
-Inusual
-Profesor
-Profesora
-Imprescindible
-Reducir
-Abandonar
-Dejar
-Apartar
-Dejar de lado
-Pero
-Sin
-Fatal
-Fatales
-Esporádico
-Esporádicos
-Esporádica
-Esporádicas
-Error
-Contrario
-Contraria
-Contrarios
-Contrarias
-Resumen
-Conclusión
-Conclusiones
-Requiere
-Requieren
+prototipo
+prototípico
+arquetipo
+arquetípico
+imposible
+imposibilidad
+necesario
+necesaria
+necesarios
+necesarias
+ninguno
+ninguna
+ni
+solo
+desconocido
+desconocida
+desconocidos
+desconocidas
+sobretodo
+nada
+importa
+recordad
+ausencia de
+falta de
+mortal
+enorme
+al contrario
+muchas veces
+recomendable
+recomiendan
+recomienda
+en muchas ocasiones
+inusual
+profesor
+profesora
+imprescindible
+reducir
+abandonar
+dejar
+apartar
+dejar de lado
+pero
+sin
+fatal
+fatales
+esporádico
+esporádicos
+esporádica
+esporádicas
+error
+contrario
+contraria
+contrarios
+contrarias
+resumen
+conclusión
+conclusiones
+requiere
+requieren
 mala
 malo
 malas
