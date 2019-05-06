@@ -1,4 +1,3 @@
-Attribute VB_Name = "NewMacros"
 Sub XpressPunte4_0UNO()
 Attribute XpressPunte4_0UNO.VB_Description = "plantilla"
 Attribute XpressPunte4_0UNO.VB_ProcData.VB_Invoke_Func = "Normal.NewMacros.Macro1"
