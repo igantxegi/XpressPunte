@@ -23,4 +23,4 @@ EXPLICACIÓN DE CADA ELEMENTO:
     - XpressPunte (logo).png: versión orginal
     - XpressPunte (logoGRANDE).png: versión del original, pero escalada a las recomendaciones de Github.
     - XpressPunte (logoGRANDE).gif: versión del original, pero en formato gif (buscando un menor peso).
-  - Pendiente.md: lista de característicasa imolementar próximamente. 
+  - Pendiente.md: lista de características a implementar próximamente. 
